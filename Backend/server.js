@@ -43,7 +43,7 @@ import cloudinary from "cloudinary";
 import cors from "cors";
 import app from "./app.js";
 
-dotenv.config(); // Load .env variables
+dotenv.config(); // Load .env variables       
 
 cloudinary.v2.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
